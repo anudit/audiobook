@@ -3,7 +3,7 @@
 Converts EPUB to Audiobooks. Fully local.
 
 ## Setup
-Make sure you have [uv]() installed.
+Make sure you have [uv](https://docs.astral.sh/uv/getting-started/installation/) installed.
 ```
 uv venv
 uv sync

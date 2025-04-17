@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import torch
-torch.mps.set_per_process_memory_fraction(0.95)
+print("Using Torch",torch.__version__)
+torch.mps.set_per_process_memory_fraction(0.96)
 
 import os
 import re

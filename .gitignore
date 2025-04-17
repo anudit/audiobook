@@ -1,4 +1,5 @@
 .venv
 .ropeproject
 output
+output_*
 .DS_Store

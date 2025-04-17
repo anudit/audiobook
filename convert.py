@@ -79,7 +79,7 @@ def main():
         chapter_text = chapter["text"]
         chapter_title = chapter["title"] if len(chapter["text"]) > 0 else 'Unknown'
 
-        if (len(chapter_text) >= 10):
+        if (len(chapter_text) >= 50):
 
             start_time = time.time()
             # Generate the complete audio for this chapter using TTS.

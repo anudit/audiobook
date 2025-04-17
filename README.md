@@ -14,5 +14,8 @@ Edit the `input_epub` and `output_dir` in `convert.py` according to your file.
 
 Run it.
 ```
-PYTORCH_ENABLE_MPS_FALLBACK=1 uv run audiobook.py
+# for epubs
+PYTORCH_ENABLE_MPS_FALLBACK=1 uv run convert.py
+# for pdfs
+PYTORCH_ENABLE_MPS_FALLBACK=1 uv run convertPdf.py
 ```
